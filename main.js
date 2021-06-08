@@ -22,17 +22,36 @@ const students = [
   'Arnold',
   'Andy'
 ];
+//message displayed
 
+console.log(students)
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
+
+//Challange 2 reverse order of number; constants listed
+
+const grades = [100, 80, 110, 75, 83, 64];
+
+//Output
+
+  grades.reverse();
+  console.log(grades)
 
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 
+
+//Use slice array technique 
+
+
+
+while (positiveNumbers %2 == 0){
+  console.log(positiveNumbers)
+}
 
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
@@ -42,11 +61,18 @@ const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
 // Challenge 5
 // Remove two values from the beginning and one value from the end of the following array, simply by deleting them in the following line. Then console.log out each value individually.
 const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
-
+console.log(symmetricalCapitals)
+const spliceStartaIndex = 0;
+const spliceStarthIndex = 1;
+const spliceStartyIndex = 10;
+symmetricalCapitals.splice(spliceStartaIndex, spliceStarthIndex, spliceStartyIndex);
+console.log(symmetricalCapitals)
 
 // Challenge 6
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
 const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
+
+
 
 
 // Challenge 7
